@@ -8,7 +8,8 @@ b) Offline. Tee paikallinen offline-varasto git:llä. Varaston nimessä tulee ol
 
 Luodaan kansio kotihakemistoon
 
--mkdir cat
+  -mkdir cat
+
 Määritetään meidän github käyttäjän tiedot, koska github vaatii sitä ensimmäisellä kerralla.
   
   -git config --global user.name "user_name"
