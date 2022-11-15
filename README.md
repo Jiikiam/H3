@@ -21,7 +21,7 @@ Luodaan varastoon tiedosto test.txt ja kirjoitetaan sinne jotain.
 - cd cat
 - nano test.txt
 
-(/h3/h3b.1.png)
+![Alt text](/h3/h3b.1.png)
 
 
 c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
