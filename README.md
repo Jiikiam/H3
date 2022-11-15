@@ -70,7 +70,7 @@ Käydään ensiksi tekemässä uusi repository https://github.com/Jiikiam/car ni
 
 Seuraavaksi tehdään uusi kansio ubuntu serveriin samalla nimellä "car" ja luodaan kansioon README tiedosto.
 
-- git init carcd
+- git init car
 - cd car
 - nano README
 
@@ -78,7 +78,43 @@ Kommitataan muutokset. Lisätään githubin url osoite mihin halutaan car kansio
 
 - git add README
 - git commit -m "jotain"
-- git 
+- git git remote add origin https://github.com/username/car.git
+- git push -u origin master
+
+Vaatii github käyttäjän ja salasanan. Salasanana toimii nykyään personal access token, joka pitää käydä luomassa. https://www.youtube.com/watch?v=Ff66TqiaIto&ab_channel=RahulWagh
+
+![Alt text](/h3/h3d.2.png)
+
+![Alt text](/h3/h3d.3.png)
+
+Nyt muutokset ovat kaikille näkyvissä.
+
+e) Dolly. Kloonaa edellisessä kohdassa tehty varasto itsellesi, tee muutoksia, puske ne palvelimelle, ja näytä, että ne ilmestyvät weppiliittymään.
+
+Poistetaan ensin palvelimelle puskettu kansio ubuntulta
+
+- rm -r /home/username/car
+
+Cloonataan kansio githubista
+
+- git clone https://github.com/username/car.git
+
+![Alt text](/h3/h3e1.png)
+
+Muutetaan kansiossa jotain
+
+- nano car/README.md
+
+Pushataan sanmoin kuin kohdassa d), tarkistetaan muuttuiko.
+
+![Alt text](/h3/h3e2.png)
+
+Muutokset menit läpi ja näkyväy githubissa.
+
+
+
+
+
 
 
 
