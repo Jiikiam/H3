@@ -8,7 +8,7 @@ Tämä tehtävä on tehty markdownilla repositoryyn H3. Tiedostoa README.md on m
 
 Luodaan kansio kotihakemistoon ja laitetaan se toimimaan.
 
-- mkdir cat
+```mkdir cat```
 - git init cat
 
 Määritetään meidän github käyttäjän tiedot, koska github vaatii sitä ensimmäisellä kerralla.
