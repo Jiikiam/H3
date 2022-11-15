@@ -2,7 +2,7 @@
 
 a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
--
+Tämä tehtävä on tehty markdownilla repositoryyn H3. Tiedostoa README.md on muokattu webbiliittymässä ja tarvittavat kuvat on ladattu H3/h3.
 
 b) Offline. Tee paikallinen offline-varasto git:llä. Varaston nimessä tulee olla sana "cat" (kissa). Aiemmin tehty varasto ei siis kelpaa. Aseta itsellesi sähköpostiosoite ja nimi. Näytä varastollasi muutosten teko ja niiden katsominen lokista.cd
 
@@ -61,6 +61,24 @@ Käydään poistamassa kaikki test.txt teidoston sisältö.
 ![Alt text](/h3/h3c.2.png)
 
 Nähdään että tiedosto on palautunut vanhaan tilaan ja sisältää kaikki sinne lisätyt osat.
+
+d) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "car" (auto). Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, suosittelen tekemään README.md ja vapaista lisensseistä itse tykkään GPLv3 eli GNU General Public License, version 3)
+
+Käydään ensiksi tekemässä uusi repository https://github.com/Jiikiam/car nimeltä car
+
+![Alt text](/h3/h3d.1.png)
+
+Seuraavaksi tehdään uusi kansio ubuntu serveriin samalla nimellä "car" ja luodaan kansioon README tiedosto.
+
+- git init carcd
+- cd car
+- nano README
+
+Kommitataan muutokset. Lisätään githubin url osoite mihin halutaan car kansio ladata. Pushataan ne github repositoryyn.
+
+- git add README
+- git commit -m "jotain"
+- git 
 
 
 
