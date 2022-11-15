@@ -30,6 +30,7 @@ Ajetaan muutokset läpi
 Nyt tiedosto test.txt on tallettu gittiin. Käydään tekemässä muutoksia kansioon.
 
 - nano test.txt
+
 ![Alt text](/h3/h3b.1.png)
 
 
