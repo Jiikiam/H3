@@ -16,12 +16,12 @@ Määritetään meidän github käyttäjän tiedot, koska github vaatii sitä en
   
 - git config --global user.email "email"
 
-Luodaan varastoon tiedosto test.txt
+Luodaan varastoon tiedosto test.txt ja kirjoitetaan sinne jotain.
 
 - cd cat
 - nano test.txt
 
-![Alt text](/h3/h3b.1.png)
+(/h3/h3b.1.png)
 
 
 c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
