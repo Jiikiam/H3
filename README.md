@@ -28,7 +28,8 @@ Ajetaan muutokset läpi
 
 - git add test.txt
 - git commit -m "test"
-- git log
+
+Nyt tiedosto test.txt on tallettu gittiin. Käydään kirjoittamassa kansioon jotain.
 
 ![Alt text](/h3/h3b.2.png)
 
