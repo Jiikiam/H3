@@ -17,7 +17,7 @@ Määritetään meidän github käyttäjän tiedot, koska github vaatii sitä en
   
 - git config --global user.email "email"
 
-Luodaan varastoon tiedosto test.txt ja tallennetaan se tyhjänä.
+Luodaan varastoon tiedosto test.txt ja tallennetaan sinne jotain.
 
 - cd cat
 - nano test.txt
@@ -31,10 +31,21 @@ Nyt tiedosto test.txt on tallettu gittiin. Käydään tekemässä muutoksia kans
 
 - nano test.txt
 
-![Alt text](/h3/h3b.1.png)
+Tehdään uusii commit ja katsotaan onko tiedostossa tehty muutosksia
 
+- git commit -m "test1"
 
-![Alt text](/h3/h3b.2.png)
+![Alt text](/h3/h3b.5.png)
+
+- git log 
+
+![Alt text](/h3/h3b.5.png)
+
+Tietysti halutaan nähdä mitä muutoksia on tehty.
+
+- git log --patch
+
+![Alt text](/h3/h3b.4.png)
 
 c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
