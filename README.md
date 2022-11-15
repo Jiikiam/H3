@@ -1,10 +1,10 @@
 # h3 GIT
 
-a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
+# a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
 Tämä tehtävä on tehty markdownilla repositoryyn H3. Tiedostoa README.md on muokattu webbiliittymässä ja tarvittavat kuvat on ladattu H3/h3.
 
-b) Offline. Tee paikallinen offline-varasto git:llä. Varaston nimessä tulee olla sana "cat" (kissa). Aiemmin tehty varasto ei siis kelpaa. Aseta itsellesi sähköpostiosoite ja nimi. Näytä varastollasi muutosten teko ja niiden katsominen lokista.cd
+# b) Offline. Tee paikallinen offline-varasto git:llä. Varaston nimessä tulee olla sana "cat" (kissa). Aiemmin tehty varasto ei siis kelpaa. Aseta itsellesi sähköpostiosoite ja nimi. Näytä varastollasi muutosten teko ja niiden katsominen lokista.cd
 
 Luodaan kansio kotihakemistoon ja laitetaan se toimimaan.
 
@@ -47,7 +47,7 @@ Tietysti halutaan nähdä mitä muutoksia on tehty.
 
 ![Alt text](/h3/h3b.4.png)
 
-c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+# c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 Käydään poistamassa kaikki test.txt teidoston sisältö.
 
@@ -62,7 +62,7 @@ Käydään poistamassa kaikki test.txt teidoston sisältö.
 
 Nähdään että tiedosto on palautunut vanhaan tilaan ja sisältää kaikki sinne lisätyt osat.
 
-d) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "car" (auto). Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, suosittelen tekemään README.md ja vapaista lisensseistä itse tykkään GPLv3 eli GNU General Public License, version 3)
+# d) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "car" (auto). Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, suosittelen tekemään README.md ja vapaista lisensseistä itse tykkään GPLv3 eli GNU General Public License, version 3)
 
 Käydään ensiksi tekemässä uusi repository https://github.com/Jiikiam/car nimeltä car
 
@@ -89,7 +89,7 @@ Vaatii github käyttäjän ja salasanan. Salasanana toimii nykyään personal ac
 
 Nyt muutokset ovat kaikille näkyvissä.
 
-e) Dolly. Kloonaa edellisessä kohdassa tehty varasto itsellesi, tee muutoksia, puske ne palvelimelle, ja näytä, että ne ilmestyvät weppiliittymään.
+# e) Dolly. Kloonaa edellisessä kohdassa tehty varasto itsellesi, tee muutoksia, puske ne palvelimelle, ja näytä, että ne ilmestyvät weppiliittymään.
 
 Poistetaan ensin palvelimelle puskettu kansio ubuntulta
 
