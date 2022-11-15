@@ -17,12 +17,10 @@ Määritetään meidän github käyttäjän tiedot, koska github vaatii sitä en
   
 - git config --global user.email "email"
 
-Luodaan varastoon tiedosto test.txt ja kirjoitetaan sinne jotain.
+Luodaan varastoon tiedosto test.txt ja tallennetaan se tyhjänä.
 
 - cd cat
 - nano test.txt
-
-![Alt text](/h3/h3b.1.png)
 
 Ajetaan muutokset läpi
 
