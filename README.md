@@ -20,7 +20,8 @@ Luodaan varastoon tiedosto test.txt
 
 - cd cat
 - nano test.txt
-<img src="h3/h3b.1>
+
+<img src="h3/h3b.1.png>
 
 
 c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
