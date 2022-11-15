@@ -49,6 +49,18 @@ Tietysti halutaan nähdä mitä muutoksia on tehty.
 
 c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
+Käydään poistamassa kaikki test.txt teidoston sisältö.
+
+- nano test.txt
+- cat text.txt, tiedosto on tyhjä
+- git add .
+- git status
+- git reset --hard
+- cat test.txt
+
+![Alt text](/h3/h3c.2.png)
+
+Nähdään että tiedosto on palautunut vanhaan tilaan ja sisältää kaikki sinne lisätyt osat.
 
 
 
