@@ -6,9 +6,10 @@ a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä ra
 
 b) Offline. Tee paikallinen offline-varasto git:llä. Varaston nimessä tulee olla sana "cat" (kissa). Aiemmin tehty varasto ei siis kelpaa. Aseta itsellesi sähköpostiosoite ja nimi. Näytä varastollasi muutosten teko ja niiden katsominen lokista.cd
 
-Luodaan kansio kotihakemistoon
+Luodaan kansio kotihakemistoon ja laitetaan se toimimaan.
 
 - mkdir cat
+- git init cat
 
 Määritetään meidän github käyttäjän tiedot, koska github vaatii sitä ensimmäisellä kerralla.
   
@@ -23,6 +24,13 @@ Luodaan varastoon tiedosto test.txt ja kirjoitetaan sinne jotain.
 
 ![Alt text](/h3/h3b.1.png)
 
+Ajetaan muutokset läpi
+
+- git add test.txt
+- git commit -m "test"
+- git log
+
+![Alt text](/h3/h3b.2.png)
 
 c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
