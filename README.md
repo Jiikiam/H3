@@ -34,9 +34,6 @@ Nyt tiedosto test.txt on tallettu gittiin. Käydään tekemässä muutoksia kans
 Tehdään uusii commit ja katsotaan onko tiedostossa tehty muutosksia
 
 - git commit -m "test1"
-
-![Alt text](/h3/h3b.5.png)
-
 - git log 
 
 ![Alt text](/h3/h3b.5.png)
