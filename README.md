@@ -27,7 +27,11 @@ Ajetaan muutokset läpi
 - git add test.txt
 - git commit -m "test"
 
-Nyt tiedosto test.txt on tallettu gittiin. Käydään kirjoittamassa kansioon jotain.
+Nyt tiedosto test.txt on tallettu gittiin. Käydään tekemässä muutoksia kansioon.
+
+- nano test.txt
+![Alt text](/h3/h3b.1.png)
+
 
 ![Alt text](/h3/h3b.2.png)
 
