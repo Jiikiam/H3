@@ -35,7 +35,7 @@ Tehdään uusii commit ja katsotaan onko tiedostossa tehty muutosksia
 
 - git commit -m "test1"
 
-![Alt text](/h3/h3b.5.png)
+![Alt text](/H3/h3b.5.png)
 
 - git log 
 
